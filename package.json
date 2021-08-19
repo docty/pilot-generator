@@ -1,0 +1,25 @@
+{
+  "name": "pilot-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pilot-generator": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "pilot",
+    "pilot-generator",
+    "nodejs framework"
+  ],
+  "author": "Henry Asiedu <sensork82@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "exec-sh": "^0.4.0",
+    "yargs": "^17.1.1"
+  }
+}
