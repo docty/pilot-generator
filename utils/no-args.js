@@ -7,7 +7,10 @@ module.exports = function() {
     \t -h, --help     output usage information`;
 
     const commands = "\n\n Commands:"+ 
-    "\n  \t new [name]  Create a new project";
+    "\n  \t new           [name]        Create a new project" +
+    "\n  \t model         [name]        Create a model" +
+    "\n  \t controller    [name]        Create a controller" + 
+    "\n  \t migrate                     Migrate database";
     
     console.log(usage);
     console.log(options);

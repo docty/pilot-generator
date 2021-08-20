@@ -5,7 +5,9 @@ const noArgs = require('./utils/no-args')
 const withArgs = require('./utils/with-args');
 
 const usage = chalk.green("\n Usage: pilot-generator [command]");
-//yargs.usage(usage).options('new').argv;
+
+yargs.usage(usage).argv;
+
 
 if(!yargs.argv._.length) return noArgs()
 
