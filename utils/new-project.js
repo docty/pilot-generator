@@ -12,7 +12,7 @@ module.exports = async function(name, basePath) {
         fs.mkdir(`${name}/config`, ()=> {});
         fs.copyFile(path.resolve(basePath, 'lib/config/database.js'), `${name}/config/database.js`, (err) => {});
         fs.copyFile(path.resolve(basePath, 'lib/config/routes.js'), `${name}/config/routes.js`, (err) => {});
-    }, 1500);
+	}, 1500);
     setTimeout(() => {
         fs.mkdir(`${name}/src`, ()=> {});
         fs.mkdir(`${name}/src/controllers`, ()=> {});
