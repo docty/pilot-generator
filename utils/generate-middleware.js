@@ -5,7 +5,7 @@ module.exports = function(name){
     const content = `module.exports = function(req, res){
 
 }`
-    let basePath = path.resolve('src/controllers/');
+    let basePath = path.resolve('src/middlewares/');
     const getIndex = name.indexOf('/');
 	
 	if (!fs.existsSync(basePath)) {

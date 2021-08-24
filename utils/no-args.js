@@ -10,6 +10,7 @@ module.exports = function() {
     "\n  \t new           [name]        Create a new project" +
     "\n  \t model         [name]        Create a model" +
     "\n  \t controller    [name]        Create a controller" + 
+	"\n  \t middleware    [name]        Create a middleware" + 
     "\n  \t migrate                     Migrate database";
     
     console.log(usage);
