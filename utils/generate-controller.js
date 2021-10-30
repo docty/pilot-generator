@@ -3,6 +3,7 @@ const path = require('path');
 
 module.exports = function(name){
     const content = `module.exports = function(req, res){
+	res.json({message: 'Congratulation'})
 
 }`
     let basePath = path.resolve('src/controllers/');
@@ -24,7 +25,10 @@ module.exports = function(name){
     
     defaultArray.forEach(element => {
         basePath = path.join(basePath, element)
-        fs.mkdirSync(basePath);
+		if (!fs.existsSync(basePath)) {
+			fs.mkdirSync(basePath);
+		}
+         
 		console.log(basePath)
     });
     

@@ -11,7 +11,7 @@
   "author": "Henry Asiedu <createdarko@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@docty68/pilot": "^1.5.0",
+    "@docty68/pilot": "^1.6.0",
     "pg": "^8.7.1",
     "sequelize": "^6.6.5",
     "sequelize-cli": "^6.2.0"
